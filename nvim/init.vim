@@ -2,6 +2,7 @@
 " ---------------------------------------------------------------------
 
 " init autocmd
+let mapleader="\<Space>"
 autocmd!
 " set script encoding
 scriptencoding utf-8
@@ -102,6 +103,7 @@ au BufNewFile,BufRead *.mdx set filetype=markdown
 au BufNewFile,BufRead *.flow set filetype=javascript
 " Fish
 au BufNewFile,BufRead *.zsh set filetype=zsh
+au BufNewFile, BufRead *.rs setf rust
 
 set suffixesadd=.js,.es,.jsx,.json,.css,.less,.sass,.styl,.php,.py,.md
 

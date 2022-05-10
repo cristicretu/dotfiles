@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-next-app": "^12.1.5",
+    "diagnostic-languageserver": "^1.14.2"
+  }
+}

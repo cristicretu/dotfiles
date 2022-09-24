@@ -1,0 +1,26 @@
+echo 'Setting up Xcode'
+
+# Trim trailing whitespace
+defaults write com.apple.dt.Xcode DVTTextEditorTrimTrailingWhitespace -bool true
+
+# Trim whitespace only lines
+defaults write com.apple.dt.Xcode DVTTextEditorTrimWhitespaceOnlyLines -bool true
+
+# Show line numbers
+defaults write com.apple.dt.Xcode DVTTextShowLineNumbers -bool true
+
+# Show ruler at 80 chars
+defaults write com.apple.dt.Xcode DVTTextShowPageGuide -bool true
+defaults write com.apple.dt.Xcode DVTTextPageGuideLocation -int 80
+
+# Use ⌥↑ and ⌥↓ to move code up and down
+defaults write com.apple.dt.Xcode NSUserKeyEquivalents -dict-add "Move Line Down" "~\\U2193"
+defaults write com.apple.dt.Xcode NSUserKeyEquivalents -dict-add "Move Line Up" "~\\U2191"
+
+# Map ⌘D to select the next occurrence of the current selection
+defaults write com.apple.dt.Xcode NSUserKeyEquivalents -dict-add "Select Next Occurrence" "@d"
+
+# Ignore whitespace changes for blame
+defaults write com.apple.dt.Xcode DVTDiffSessionIgnoreWhitespaceKey -bool true
+
+echo 'Done'

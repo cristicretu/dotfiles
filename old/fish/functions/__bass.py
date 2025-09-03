@@ -36,8 +36,6 @@ def ignored(name):
         return True
     if name in IGNORED or name.startswith("BASH_FUNC"):
         return True
-    if name.startswith('%'):
-        return True
     return False
 
 def escape(string):

@@ -1,0 +1,65 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "workbench.sideBar.location": "right",
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "latex-workshop.latexindent.path": "/opt/homebrew/bin/latexindent",
+  "git.openRepositoryInParentFolders": "never",
+  "cmake.showOptionsMovedNotification": false,
+  "cmake.configureOnOpen": true,
+  "svelte.enable-ts-plugin": true,
+  "cursor.cpp.disabledLanguages": ["scminput", "commonlisp", "perl"],
+  "workbench.colorTheme": "Cursor Dark Midnight",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "editor.fontFamily": "MonoLisa, Monaco, 'Courier New', monospace",
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "cursor.composer.agentLoopOnLints": false,
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+  "git.confirmSync": false,
+  "update.releaseTrack": "prerelease",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "cursor.composer.shouldAllowCustomModes": true,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "explorer.confirmPasteNative": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "editor.accessibilitySupport": "off"
+}
+
